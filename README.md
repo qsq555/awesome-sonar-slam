@@ -121,12 +121,3 @@ This index uses five engineering categories based on hardware type and SLAM usag
 | INS | Inertial navigation system |
 | DVL | Doppler velocity log |
 | DR | Dead reckoning |
-
-## Contributing
-
-- Add only methods that perform SLAM or provide a direct odometry, registration, loop-closure, or factor component used by a sonar SLAM system.
-- Preserve the original paper title, venue title, year, and persistent paper link.
-- Do not invent a method name or sensor model. Use “—” for an unnamed method and “-” when no specific hardware model is reported.
-- Link only verified author/project repositories. Mark third-party implementations explicitly as unofficial.
-- Keep the English and Chinese tables synchronized: the same rows, order, sensors, papers, venues, links, repositories, and badges.
-
