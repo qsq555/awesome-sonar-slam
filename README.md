@@ -360,5 +360,4 @@ Some older papers, theses, or supplied PDFs do not yet have a stable DOI/URL in 
 - Report code/data links separately from paper links, and do not infer that “authors state code will be released” means that a repository is already public.
 - For a future release, add Chinese-language papers and theses in a separate appendix, add license/status columns for repositories, and record benchmark/sensor configuration in a machine-readable companion table.
 
-#   a w e s o m e - s o n a r - s l a m  
- 
+#
