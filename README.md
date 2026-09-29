@@ -7,7 +7,7 @@
 This first release is compiled from a curated 205-paper research corpus. The primary scope is **forward-looking sonar (FLS), including multibeam forward-looking sonar (MFLS), with IMU and depth**, while related imaging-sonar, mechanical-scanning, multibeam, side-scan, bathymetric, and cross-modal work is included when it contributes a reusable SLAM component.
 
 > **Status:** v0.1 · 2026-09-28  
-> **Curation note:** This is a corpus-grounded research index, not a claim of exhaustive coverage. Paper links resolve to DOI/arXiv URLs when those URLs are reported in the underlying source records; `metadata-only` means that a stable URL was not reported and should be completed in a later bibliographic pass. “Code / data” is listed only when the source record reports a public resource.
+> **Curation note:** This is a corpus-grounded research index, not a claim of exhaustive coverage. Paper titles are kept in their source language for retrieval. Paper links resolve to DOI/arXiv URLs when those URLs are reported in the underlying source records; `metadata-only` means that a stable URL was not reported and should be completed in a later bibliographic pass. “Code / data” is listed only when the source record reports a public resource.
 
 ## Contents
 
@@ -361,5 +361,5 @@ Some older papers, theses, or supplied PDFs do not yet have a stable DOI/URL in 
 - Add a paper only after verifying the title, year, venue, and persistent URL from the paper card or an authoritative publication page.
 - Put a method in the most specific functional section first; duplicate it in another section only when it provides a distinct reusable component.
 - Report code/data links separately from paper links, and do not infer that “authors state code will be released” means that a repository is already public.
-- For a future release, add Chinese-language papers and theses in a separate appendix, add license/status columns for repositories, and record benchmark/sensor configuration in a machine-readable companion table.
+- In future releases, expand the Chinese-language and thesis appendix, add license/status columns for repositories, and record benchmark/sensor configuration in a machine-readable companion table.
 
