@@ -19,15 +19,13 @@ This public index summarizes sonar-based SLAM methods and organizes the related 
 
 ## Sonar taxonomy
 
-This index uses five engineering categories based on primary measurement geometry and SLAM usage:
+This index uses five engineering categories based on hardware type and SLAM usage:
 
 - **FLS:** forward-looking 2-D range–azimuth imaging sonar, commonly implemented with electronic multibeam beamforming. “MFLS” is not treated as a separate category.
 - **MSIS:** mechanically scanned imaging or profiling sonar that forms a scan over time.
 - **3D sonar:** sonar that directly resolves elevation and outputs 3-D points or range–azimuth–elevation measurements.
 - **SSS:** side-looking sonar that forms strip imagery as the platform moves.
 - **MBES:** mainly downward- or oblique-looking multibeam echo sounder used for bathymetric swaths and seabed maps.
-
-“Multibeam” is a beamforming property, not a standalone category in this index. Original paper titles are never rewritten, so “multi-beam forward-looking sonar” may still appear inside a title.
 
 ## Forward-looking imaging sonar (FLS)
 
