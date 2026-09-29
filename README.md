@@ -2,6 +2,8 @@
 
 **A curated list of papers, datasets, and reusable methods for sonar-based underwater SLAM.**
 
+**Languages:** English | [简体中文](README.zh-CN.md)
+
 This first release is compiled from a curated 205-paper research corpus. The primary scope is **forward-looking / multibeam forward-looking sonar (FLS/MFLS) with IMU and depth**, while related imaging-sonar, mechanical-scanning, multibeam, side-scan, bathymetric, and cross-modal work is included when it contributes a reusable SLAM component.
 
 > **Status:** v0.1 · 2026-09-28  
@@ -360,4 +362,3 @@ Some older papers, theses, or supplied PDFs do not yet have a stable DOI/URL in 
 - Report code/data links separately from paper links, and do not infer that “authors state code will be released” means that a repository is already public.
 - For a future release, add Chinese-language papers and theses in a separate appendix, add license/status columns for repositories, and record benchmark/sensor configuration in a machine-readable companion table.
 
-#
