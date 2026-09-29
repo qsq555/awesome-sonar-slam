@@ -4,7 +4,7 @@
 
 **Languages:** English | [简体中文](README.zh-CN.md)
 
-This first release is compiled from a curated 205-paper research corpus. The primary scope is **forward-looking / multibeam forward-looking sonar (FLS/MFLS) with IMU and depth**, while related imaging-sonar, mechanical-scanning, multibeam, side-scan, bathymetric, and cross-modal work is included when it contributes a reusable SLAM component.
+This first release is compiled from a curated 205-paper research corpus. The primary scope is **forward-looking sonar (FLS), including multibeam forward-looking sonar (MFLS), with IMU and depth**, while related imaging-sonar, mechanical-scanning, multibeam, side-scan, bathymetric, and cross-modal work is included when it contributes a reusable SLAM component.
 
 > **Status:** v0.1 · 2026-09-28  
 > **Curation note:** This is a corpus-grounded research index, not a claim of exhaustive coverage. Paper links resolve to DOI/arXiv URLs when those URLs are reported in the underlying source records; `metadata-only` means that a stable URL was not reported and should be completed in a later bibliographic pass. “Code / data” is listed only when the source record reports a public resource.
@@ -13,7 +13,7 @@ This first release is compiled from a curated 205-paper research corpus. The pri
 
 - [Scope and taxonomy](#scope-and-taxonomy)
 - [Master table](#master-table)
-- [Core FLS/MFLS SLAM systems](#core-flsmfls-slam-systems)
+- [Core FLS SLAM systems (including MFLS)](#core-fls-slam-systems-including-mfls)
 - [Sonar-inertial odometry and SLAM front ends](#sonar-inertial-odometry-and-slam-front-ends)
 - [3D imaging-sonar, acoustic-camera, and neural mapping](#3d-imaging-sonar-acoustic-camera-and-neural-mapping)
 - [Loop closure, place recognition, and graph methods](#loop-closure-place-recognition-and-graph-methods)
@@ -30,7 +30,8 @@ The categories are **functional and overlapping**: one paper may appear in more 
 
 | Tag | Meaning |
 |---|---|
-| `FLS/MFLS` | 2-D forward-looking or multibeam forward-looking imaging sonar |
+| `FLS` | Forward-looking sonar; the umbrella term used throughout this index |
+| `MFLS` | Multibeam forward-looking sonar; a multibeam subtype of FLS, retained when the source explicitly makes that distinction |
 | `3D sonar` | Sonar with explicit elevation or 3-D point/depth output |
 | `MSIS/MBES` | Mechanical scanning imaging sonar or multibeam echo sounder |
 | `SSS` | Side-scan sonar |
@@ -149,9 +150,9 @@ A single quick-reference table for public readers. Sensor names are given at the
 | Sonar | Underwater SLAM review | 2025 | [水下机器人同步定位与建图关键技术进展与展望](https://doi.org/10.3969/j.issn.1003-2029.2025.03.011) | 10.3969/j.issn.1003-2029.2025.03.011 |
 | FLS; camera/IMU | FLS 3-D odometry review / method | 2026 | [前视声呐三维视觉里程计技术](https://doi.org/10.12395/0371-0025.2025015) | 10.12395/0371-0025.2025015 |
 
-## Core FLS/MFLS SLAM systems
+## Core FLS SLAM systems (including MFLS)
 
-Direct localization-and-mapping systems closest to the minimal FLS/MFLS + IMU + depth research stack.
+Direct localization-and-mapping systems closest to the minimal FLS (including MFLS) + IMU + depth research stack.
 
 | Year | Sensor / method | Paper |
 |---:|---|---|
@@ -173,7 +174,7 @@ Direct localization-and-mapping systems closest to the minimal FLS/MFLS + IMU + 
 
 ## Sonar-inertial odometry and SLAM front ends
 
-Relative-pose estimation methods that can serve as the front end of a FLS/MFLS SLAM system.
+Relative-pose estimation methods that can serve as the front end of an FLS SLAM system, including systems using MFLS devices.
 
 | Year | Front end | Paper |
 |---:|---|---|
