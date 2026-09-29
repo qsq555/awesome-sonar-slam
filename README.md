@@ -361,5 +361,4 @@ Some older papers, theses, or supplied PDFs do not yet have a stable DOI/URL in 
 - For a future release, add Chinese-language papers and theses in a separate appendix, add license/status columns for repositories, and record benchmark/sensor configuration in a machine-readable companion table.
 
 #   a w e s o m e - s o n a r - s l a m  
- #   a w e s o m e - s o n a r - s l a m  
  
